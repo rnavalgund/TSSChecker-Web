@@ -5,7 +5,7 @@ $version = htmlspecialchars($_GET['version']);
 $boardconfig = htmlspecialchars($_GET['boardconfig']);
 ?>
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<meta name = "viewport" content = "width = device-width">
 
