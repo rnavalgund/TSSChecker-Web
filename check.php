@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<meta name = "viewport" content = "width = device-width">
 	<title><?php echo $_GET['device']?> - <?php echo $_GET['version']?></title>
