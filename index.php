@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name = "viewport" content = "width = device-width">
+	<meta name="viewport" content="width=device-width">
 	<title>TSS Web</title>
 	<style>
-	body{
+	body {
 		margin: 0;
 	}
 
-	.navbar{
+	.navbar {
 		color: white;
 		background-color: black;
 		width: 100%;
@@ -18,7 +18,7 @@
 		padding: 16px 0px;
 
 	}
-	.btn{
+	.btn {
 		width: 100%;
 		background-color: white;
 		text-align: center;
@@ -28,7 +28,7 @@
 		padding: 16px 0px;
 	}
 
-	a{
+	a {
 		text-decoration: none;
 		color: black;
 	}
