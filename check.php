@@ -1,8 +1,14 @@
+<?php
+if(isset($_GET['device']) && isset($_GET['version']) && isset($_GET['boardconfig'])) {
+$device = htmlspecialchars($_GET['device']);
+$version = htmlspecialchars($_GET['version']);
+$boardconfig = htmlspecialchars($_GET['boardconfig']);
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta name = "viewport" content = "width = device-width">
-	<title><?php echo htmlspecialchars($_GET['device']); ?> - <?php echo htmlspecialchars($_GET['version']); ?></title>
+	<title><?php echo $device; ?> - <?php echo $version; ?></title>
 	<style>
 	body{
 		margin: 0;
@@ -33,9 +39,9 @@
 	<br>
 	<br>
 <div class="status"><center>
-Signing status for <?php echo htmlspecialchars($_GET['device']); ?> on <?php echo htmlspecialchars($_GET['version']); ?><br>
+Signing status for <?php echo $device; ?> on <?php echo $version; ?><br>
 <?php
-$output = shell_exec('./tsschecker/tsschecker_macos -d '.str_replace("|", "", str_replace(";", "", str_replace("&", "", htmlspecialchars($_GET['device'])))).' --boardconfig '.str_replace("|", "", str_replace(";", "", str_replace("&", "", htmlspecialchars($_GET['boardconfig'])))).' -i '.str_replace("|", "", str_replace(";", "", str_replace("&", "", htmlspecialchars($_GET['version'])))).'');
+$output = shell_exec('./tsschecker/tsschecker_macos -d '.str_replace("|", "", str_replace(";", "", str_replace("&", "", $device))).' --boardconfig '.str_replace("|", "", str_replace(";", "", str_replace("&", "", $boardconfig))).' -i '.str_replace("|", "", str_replace(";", "", str_replace("&", "", $version))).'');
 $arr1 = explode(PHP_EOL, $output);
 end($arr1);
 $arr2 = prev($arr1);
