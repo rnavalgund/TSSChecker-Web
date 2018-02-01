@@ -1,8 +1,15 @@
+<?php
+if(isset($_GET['device']) && isset($_GET['version']) && isset($_GET['boardconfig'])) {
+$device = htmlspecialchars($_GET['device']);
+$version = htmlspecialchars($_GET['version']);
+$boardconfig = htmlspecialchars($_GET['boardconfig']);
+?>
 <!DOCTYPE html>
 <html> 
 <head>
 	<meta name = "viewport" content = "width = device-width">
-	<title><?php echo $_GET['device']?> - <?php echo $_GET['version']?></title>
+
+	<title><?php echo $device; ?> - <?php echo $version; ?></title>
 	<style>
 	body{
 		margin: 0;
@@ -39,9 +46,9 @@
 	<br>
 	<br>
 <div class="status"><center>
-Signing status for <strong><?php echo $_GET['device']?></strong> on <strong><?php echo $_GET['version']?></strong><br>
+Signing status for <?php echo $device; ?> on <?php echo $version; ?><br>
 <?php
-$output = shell_exec('./tsschecker/tsschecker_macos -d '.$_GET['device'].' --boardconfig '.$_GET['boardconfig'].' -i '.$_GET['version'].'');
+$output = shell_exec('./tsschecker/tsschecker_macos -d '.$device.' --boardconfig '.$boardconfig.' -i '.$version.'');
 $arr1 = explode(PHP_EOL, $output);
 end($arr1);
 $arr2 = prev($arr1);
@@ -51,9 +58,12 @@ print_r($arr2);
 </div>
 <div class="bottom">
 <center>
-	Copyright © DanielD3V, 2018<br>
+	Copyright &copy; DanielD3V, 2018<br>
 TSSChecker - Web is licensed under MIT License
 </center>
 </div>
 </body>
 </html>
+<?php
+}
+?>
