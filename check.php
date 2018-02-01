@@ -48,7 +48,7 @@ $boardconfig = htmlspecialchars($_GET['boardconfig']);
 <div class="status"><center>
 Signing status for <?php echo $device; ?> on <?php echo $version; ?><br>
 <?php
-$output = shell_exec('./tsschecker/tsschecker_macos -d '.$device.' --boardconfig '.$boardconfig.' -i '.$version.'');
+$output = shell_exec('./tsschecker/tsschecker_macos -d '.str_replace("|", "", str_replace(";", "", str_replace("&", "", $device))).' --boardconfig '.str_replace("|", "", str_replace(";", "", str_replace("&", "", $boardconfig))).' -i '.str_replace("|", "", str_replace(";", "", str_replace("&", "", $version))).'');
 $arr1 = explode(PHP_EOL, $output);
 end($arr1);
 $arr2 = prev($arr1);
