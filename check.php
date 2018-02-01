@@ -50,8 +50,10 @@ print_r($arr2);
 </center>
 </div>
 <div class="bottom">
+<center>
 	Copyright © DanielD3V, 2018<br>
 TSSChecker - Web is licensed under MIT License
+</center>
 </div>
 </body>
 </html>
