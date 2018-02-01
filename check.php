@@ -57,6 +57,3 @@ TSSChecker - Web is licensed under MIT License
 </div>
 </body>
 </html>
-<?php
-}
-?>
