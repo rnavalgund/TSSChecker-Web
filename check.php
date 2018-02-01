@@ -1,15 +1,8 @@
-<?php
-if(isset($_GET['device']) && isset($_GET['version']) && isset($_GET['boardconfig'])) {
-$device = htmlspecialchars($_GET['device']);
-$version = htmlspecialchars($_GET['version']);
-$boardconfig = htmlspecialchars($_GET['boardconfig']);
-?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta name = "viewport" content = "width = device-width">
-
-	<title><?php echo $device; ?> - <?php echo $version; ?></title>
+	<title><?php echo $_GET['device']?> - <?php echo $_GET['version']?></title>
 	<style>
 	body{
 		margin: 0;
@@ -46,8 +39,9 @@ $boardconfig = htmlspecialchars($_GET['boardconfig']);
 	<br>
 	<br>
 <div class="status"><center>
-Signing status for <?php echo $device; ?> on <?php echo $version; ?><br>
-$output = shell_exec('./tsschecker/tsschecker_macos -d '.$device.' --boardconfig '.$boardconfig.' -i '.$version.'');
+Signing status for <strong><?php echo $_GET['device']?></strong> on <strong><?php echo $_GET['version']?></strong><br>
+<?php
+$output = shell_exec('./tsschecker/tsschecker_macos -d '.$_GET['device'].' --boardconfig '.$_GET['boardconfig'].' -i '.$_GET['version'].'');
 $arr1 = explode(PHP_EOL, $output);
 end($arr1);
 $arr2 = prev($arr1);
