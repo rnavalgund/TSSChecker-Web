@@ -285,6 +285,311 @@
 	</center>
 	</div>
 
+
+
+	<!-- iPad MODELS START HERE-->
+	<!-- Non-mini devices -->
+
+	<!-- iPad 1,1 iPad 1-->
+	<a href="check.php?device=iPad1,1&boardconfig=k48ap&version=5.1.1">
+	<div class="btn_bottom">
+	<center>
+	iPad 1,1, iOS 5.1.1
+	</center>
+	</div>
+
+	<!-- iPad 2,1 iPad 2 (Wifi)-->
+	<a href="check.php?device=iPad2,1&boardconfig=k93ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 2,1, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 2,2 iPad 2 (GSM) -->
+	<a href="check.php?device=iPad2,2&boardconfig=k94ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 2,2, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 2,3 iPad 2 (CDMA) -->
+	<a href="check.php?device=iPad2,3&boardconfig=k95ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 2,3, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 2,4 iPad 2 (Mid 2012) -->
+	<a href="check.php?device=iPad2,4&boardconfig=k95aap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 2,4, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 3,1 iPad 3 (Wifi) -->
+	<a href="check.php?device=iPad3,1&boardconfig=j1ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 3,1, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 3,2 iPad 3 (GSM) -->
+	<a href="check.php?device=iPad3,2&boardconfig=j2ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 3,2, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 3,3 iPad 3 (Global) -->
+	<a href="check.php?device=iPad3,3&boardconfig=j2aap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 3,3, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 3,4 iPad 4 (wifi) -->
+	<a href="check.php?device=iPad3,4&boardconfig=p101ap&version=10.3.3">
+	<div class="btn_bottom">
+	<center>
+	iPad 3,4, iOS 10.3.3
+	</center>
+	</div>
+
+	<!-- iPad 3,5 iPad 4  (GSM) -->
+	<a href="check.php?device=iPad3,5&boardconfig=p102ap&version=10.3.3">
+	<div class="btn_bottom">
+	<center>
+	iPad 3,5, iOS 10.3.3
+	</center>
+	</div>
+
+	<!-- iPad 3,6 iPad 4 (Global) -->
+	<a href="check.php?device=iPad3,6&boardconfig=p103ap&version=10.3.3">
+	<div class="btn_bottom">
+	<center>
+	iPad 3,6, iOS 10.3.3
+	</center>
+	</div>
+
+	<!-- iPad 4,1 iPad Air (Wifi) -->
+	<a href="check.php?device=iPad4,1&boardconfig=j71ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,1, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 4,2 iPad Air (Cellular) -->
+	<a href="check.php?device=iPad4,2&boardconfig=j72aap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,2, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 4,3 iPad Air (China) -->
+	<a href="check.php?device=iPad4,3&boardconfig=j73ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,3, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 5,1 iPad Air 2-->
+	<a href="check.php?device=iPad5,1&boardconfig=j81ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 5,1, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 5,2 iPad Air 2-->
+	<a href="check.php?device=iPad5,2&boardconfig=j82ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 5,2, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 6,7 iPad Pro (12.9) 1st Gen -->
+	<a href="check.php?device=iPad6,7&boardconfig=j98aap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 6,7, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 6,8 iPad Pro (12.9) 1st Gen -->
+	<a href="check.php?device=iPad6,8&boardconfig=j99aap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 6,8, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 6,3 iPad Pro (9.7) -->
+	<a href="check.php?device=iPad6,3&boardconfig=j127ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 6,3, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 6,4 iPad Pro (9.7) -->
+	<a href="check.php?device=iPad6,4&boardconfig=j128ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 6,4, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 6,11 iPad 5 -->
+	<a href="check.php?device=iPad6,11&boardconfig=j71sap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 6,11, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 6,12 iPad 5 -->
+	<a href="check.php?device=iPad6,12&boardconfig=j72sap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 6,12, iOS 11.2.5
+	</center>
+	</div>
+
+
+	<!-- iPad 7,1 iPad Pro (12.9) 2nd Gen -->
+	<a href="check.php?device=iPad7,1&boardconfig=j120ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 7,1, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 7,2 iPad Pro (12.9) 2nd Gen -->
+	<a href="check.php?device=iPad7,2&boardconfig=j121ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 7,2, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 7,3 iPad Pro (10.5) -->
+	<a href="check.php?device=iPad7,3&boardconfig=j207ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 7,3, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 7,4 iPad Pro (10.5) -->
+	<a href="check.php?device=iPad7,4&boardconfig=j208ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 7,4, iOS 11.2.5
+	</center>
+	</div>
+
+
+	<!-- Mini Models -->
+	
+	<!-- iPad 2,5 iPad Mini (wifi) -->
+	<a href="check.php?device=iPad2,5&boardconfig=p105ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 2,5, iOS 9.3.5
+	</center>
+	</div>
+	
+	<!-- iPad 2,6 iPad Mini (GSM) -->
+	<a href="check.php?device=iPad2,6&boardconfig=p106ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 2,6, iOS 9.3.5
+	</center>
+	</div>
+	
+	<!-- iPad 2,7 iPad Mini (Global) -->
+	<a href="check.php?device=iPad2,7&boardconfig=p107ap&version=9.3.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 2,7, iOS 9.3.5
+	</center>
+	</div>
+
+	<!-- iPad 4,4 iPad Mini 2 -->
+	<a href="check.php?device=iPad4,4&boardconfig=j85ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,4, iOS 11.2.5
+	</center>
+	</div>
+	
+	<!-- iPad 4,5 iPad Mini 2 -->
+	<a href="check.php?device=iPad4,5&boardconfig=j86ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,5, iOS 11.2.5
+	</center>
+	</div>
+	
+	<!-- iPad 4,6 iPad Mini 2 -->
+	<a href="check.php?device=iPad4,6&boardconfig=j87ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,6, iOS 11.2.5
+	</center>
+	</div>
+
+		<!-- iPad 4,7 iPad Mini 3 -->
+	<a href="check.php?device=iPad4,7&boardconfig=j85map&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,7, iOS 11.2.5
+	</center>
+	</div>
+	
+	<!-- iPad 4,8 iPad Mini 3 -->
+	<a href="check.php?device=iPad4,8&boardconfig=j86map&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,8, iOS 11.2.5
+	</center>
+	</div>
+	
+	<!-- iPad 4,9 iPad Mini 3 -->
+	<a href="check.php?device=iPad4,8&boardconfig=j87map&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 4,9, iOS 11.2.5
+	</center>
+	</div>
+
+	<!-- iPad 5,1 iPad Mini 4 -->
+	<a href="check.php?device=iPad5,1&boardconfig=j96ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 5,1, iOS 11.2.5
+	</center>
+	</div>
+	
+	<!-- iPad 5,2 iPad Mini 4 -->
+	<a href="check.php?device=iPad5,2&boardconfig=j97ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPad 5,2, iOS 11.2.5
+	</center>
+	</div>
+	
 </div>
 </body>
 </html>
