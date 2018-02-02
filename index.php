@@ -44,7 +44,7 @@
 </head>
 <body>
 	<div class="navbar">
-	TSSChecker - Web - iPhone
+	TSSChecker - Web
 	</div>
 	<br>
 
