@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,7 +55,7 @@
 	</center>
 	</div>
 
-<!-- iPhone 10,4 iPhone 8 -->
+	<!-- iPhone 10,4 iPhone 8 -->
 	<a href="check.php?device=iPhone10,1&boardconfig=d201ap&version=11.2.5">
 	<div class="btn">
 	<center>
@@ -65,11 +63,11 @@
 	</center>
 	</div>
 	
-	<!-- iPhone 8,4 iPhone SE -->
-	<a href="check.php?device=iPhone8,4&boardconfig=n69uap&version=11.2.5">
+	<!-- iPhone MODEL iPhone SE -->
+	<a href="check.php?device=iPhoneMODEL&boardconfig=n69uap&version=11.2.5">
 	<div class="btn">
 	<center>
-	iPhone8,4, iOS 11.2.5
+	iPhone MODEL, iOS 11.2.5
 	</center>
 	</div>
 	
@@ -121,6 +119,45 @@
 	</center>
 	</div>
 
+	<!-- iPhone 8,4 iPhone SE -->
+	<a href="check.php?device=iPhone8,4&boardconfig=n69ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPhone 8,4, iOS 11.2.5 
+	</center>
+	</div>
+
+	<!-- iPhone MODEL iPhone 6s Plus (Samsung) -->
+	<a href="check.php?device=iPhoneMODEL&boardconfig=n66ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPhone MODEL, iOS 11.2.5 
+	</center>
+	</div>
+
+	<!-- iPhone MODEL iPhone 6s Plus (TSMC) -->
+	<a href="check.php?device=iPhoneMODEL&boardconfig=n66map&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPhone MODEL, iOS 11.2.5 
+	</center>
+	</div>
+
+	<!-- iPhone MODEL iPhone 6 Plus -->
+	<a href="check.php?device=iPhoneMODEL&boardconfig=n56ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPhone MODEL, iOS 11.2.5 
+	</center>
+	</div>
+
+	<!-- iPhone MODEL iPhone 6 -->
+	<a href="check.php?device=iPhoneMODEL&boardconfig=n61ap&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPhone MODEL, iOS 11.2.5 
+	</center>
+	</div>
 </div>
 </body>
 </html>
