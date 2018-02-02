@@ -66,7 +66,7 @@
 	</div>
 	
 	<!-- iPhone 8,4 iPhone SE (TSMC) -->
-	<a href="check.php?device=iPhoneMODEL&boardconfig=n69uap&version=11.2.5">
+	<a href="check.php?device=iPhone8,4&boardconfig=n69uap&version=11.2.5">
 	<div class="btn">
 	<center>
 	iPhone 8,4, iOS 11.2.5
@@ -74,7 +74,7 @@
 	</div>
 
 	<!-- iPhone 8,4 iPhone SE (Samsung)-->
-	<a href="check.php?device=iPhoneMODEL&boardconfig=n69ap&version=11.2.5">
+	<a href="check.php?device=iPhone8,4&boardconfig=n69ap&version=11.2.5">
 	<div class="btn">
 	<center>
 	iPhone 8,4, iOS 11.2.5
