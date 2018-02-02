@@ -64,11 +64,19 @@
 	</center>
 	</div>
 	
-	<!-- iPhone 8,5 -->
+	<!-- iPhone 9,1 -->
 	<a href="check.php?device=iPhone9,1&boardconfig=d10ap&version=11.2.5">
 	<div class="btn_bottom">
 	<center>
 	iPhone 9,1, iOS 11.2.5 
+	</center>
+	</div>
+	
+	<!-- iPhone 8,1 -->
+	<a href="check.php?device=iPhone8,1&boardconfig=n71map&version=11.2.5">
+	<div class="btn_bottom">
+	<center>
+	iPhone 8,1, iOS 11.2.5 
 	</center>
 	</div>
 </div>
